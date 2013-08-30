@@ -2,7 +2,7 @@ require "bundler/capistrano"
 
 server "198.74.48.210", :web, :app, :db, primary: true
 
-set :application, "intergroup"
+set :application, "eastbay"
 set :user, "hub"
 set :deploy_to, "/home/hub/public/ohinaa.com/public/eastbay/#{application}"
 set :deploy_via, :remote_cache
