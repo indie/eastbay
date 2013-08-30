@@ -16,7 +16,7 @@ default_environment['GEM_PATH']= '/home/hub/.gem/ruby/1.9.1'
 #    }
 
 set :scm, "git"
-set :repository, "git@github.com:indie/eastbay.git"
+set :repository, "git@github.com:indie/#{application}.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
