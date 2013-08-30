@@ -46,27 +46,20 @@ class MeetingsController < ApplicationController
 # Obviously any custom CMS would need to manually change this library
 
       "city_cont" => {
-        "Atherton" => "Atherton",
-        "Belmont" => "Belmont", 
-        "Brisbane" => "Brisbane", 
-        "Burlingame" => "Burlingame", 
-        "Daly City" => "Daly City", 
-        "East Palo Alto" => "East Palo Alto", 
-        "Foster City" => "Foster City", 
-        "Half Moon Bay" => "Half Moon Bay", 
-        "La Honda" => "La Honda",
-        "Menlo Park" => "Menlo Park", 
-        "Mid-Peninsula" => "Mid-Peninsula", 
-        "Millbrae" => "Millbrae", 
-        "Moss Beach" => "Moss Beach", 
-        "Pacifica" => "Pacifica",
-        "Pescadero" => "Pescadero", 
-        "Portola Valley" => "Portola Valley", 
-        "Redwood City" => "Redwood City", 
-        "San Bruno" => "San Bruno", 
-        "San Carlos" => "San Carlos", 
-        "San Mateo" => "San Mateo", 
-        "South SF" => "South SF"}, 
+        "Alameda" => "Alameda", 
+        "Castro Valley" => "Castro Valley",  
+        "El Cerrito" => "El Cerrito", 
+        "El Sobrante" => "El Sobrante", 
+        "Fremont" => "Fremont",
+        "Hayward" => "Hayward",
+        "Newark" => "Newark",
+        "Oakland" => "Oakland",
+        "Pinole" => "Pinole",
+        "San Pablo" => "San Pablo", 
+        "Richmond" => "Richmond", 
+        "San Leandro" => "San Leandro",
+        "San Lorenzo" => "San Lorenzo",
+        "Union City" => "Union City"}, 
 
       "codes_cont" => {
         "Men" => "M",
@@ -84,7 +77,8 @@ class MeetingsController < ApplicationController
         "Young People" => "Y"},
 
       "name_or_notes_cont" => {
-        "Chip" => "chip"} 
+        "Chip" => "chip",
+        "Newcomer" => "newcomer"},
       }
 
 

@@ -22,8 +22,6 @@
     </ul>
 
     <br />
-    <div class="inst"> This section for demo only, not all meetings have applicable codes</div>
-
     <ul class="navbar-codes nav nav-pills">
         <% @param_data["codes_cont"].each do | key, val | %>
         <li><%= link_to key, render_link("codes_cont", val, @extra_q), 
