@@ -2,7 +2,7 @@ require "bundler/capistrano"
 
 server "198.74.48.210", :web, :app, :db, primary: true
 
-set :application, "eastbay"
+set :application, "intergroup"
 set :user, "hub"
 set :deploy_to, "/home/hub/public/ohinaa.com/public/#{application}"
 set :deploy_via, :remote_cache
@@ -16,7 +16,7 @@ default_environment['GEM_PATH']= '/home/hub/.gem/ruby/1.9.1'
 #    }
 
 set :scm, "git"
-set :repository, "git@github.com:indie/#{application}.git"
+set :repository, "git@github.com:indie/eastbay.git"
 set :branch, "master"
 
 default_run_options[:pty] = true
